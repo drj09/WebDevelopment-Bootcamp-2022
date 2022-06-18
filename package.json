@@ -1,0 +1,22 @@
+{
+  "name": "web-development-bootcamp",
+  "version": "1.0.0",
+  "description": "this is a learning of js files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drj09/WebDevelopment-Bootcamp-2022.git"
+  },
+  "author": "Dheeraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drj09/WebDevelopment-Bootcamp-2022/issues"
+  },
+  "homepage": "https://github.com/drj09/WebDevelopment-Bootcamp-2022#readme",
+  "dependencies": {
+    "superheroes": "^3.0.0"
+  }
+}
