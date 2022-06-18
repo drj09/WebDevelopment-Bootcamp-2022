@@ -13,6 +13,8 @@
     function superHeroNames() {
         let name =superheroes.random();
         console.log(name);
+        let allHeroes = superheroes.all;
+        console.log(allHeroes);
     }
 
 
