@@ -12,8 +12,8 @@ app.get("/",function(req,res) {
 
     res.on('data', (d) => {
         process.stdout.write(d);
-      });
-      
+      });  
+
     res.send("server is up ")
 })
 
