@@ -14,8 +14,8 @@ app.get("/", function (req, res) {
   if (today.getDay() == 6 || today.getDay() == 0) day = "Weekend";
   else day = "Work Day";
   
-
   res.render("list", { kindOfDay: day,newListItem : item });
+
 });
 
 app.post("/",function (req,res) {
