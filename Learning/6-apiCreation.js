@@ -34,13 +34,22 @@ const articleSchema = {
 const Article = mongoose.model("Article",articleSchema);
 
 app.get("/articles",function(res,res){
-
+    console.log('Got get request on /articles api');
     Article.find(function(err,serverResp){
       if(!err) 
         res.send(serverResp);
       else
         res.send(err);
     })
+
+})
+
+
+app.post("/articles",function(req,res){
+
+  console.log(req.body.title);
+
+
 
 })
 
