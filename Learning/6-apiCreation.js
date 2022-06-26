@@ -47,9 +47,18 @@ app.get("/articles",function(res,res){
 
 app.post("/articles",function(req,res){
 
-  console.log(req.body.title);
+  console.log("Got POST request on /articles")
 
+ newArticle = new Article({
+    title:req.body.title,
+    content: req.body.content
+ });
 
+ newArticle.save(function(err){
+  console.log(err);
+  if(!err) res.send("Successfully added a new article");
+  else res.send(err);
+ })
 
 })
 
