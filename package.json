@@ -4,6 +4,7 @@
   "description": "this is a learning of js files",
   "main": "index.js",
   "scripts": {
+    
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,3 +26,4 @@
     "superheroes": "^3.0.0"
   }
 }
+
